@@ -25,7 +25,8 @@ class Dataset:
         elif self.loss_func == 'CategoricalCrossentropy':
             return label
         else:
-            raise ValueError('loss_func required the value of "SparseCategoricalCrossentropy" or "CategoricalCrossentropy", but got  %s.' % self.loss_func)
+            raise ValueError('loss_func required the value of "SparseCategoricalCrossentropy" \
+                        or "CategoricalCrossentropy", but got  %s.' % self.loss_func)
 
     def __decode_img(self, img):
         img = tf.image.decode_jpeg(img, channels=3)
