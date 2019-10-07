@@ -13,8 +13,10 @@
 
 
 ### Usage
-1. 下载储存库 `git clone https://github.com/`
-2. 导入 resnet.py 模块 `import resnet`
+1. 下载储存库
+> git clone https://github.com/CpTea/Classic-Neural-Network.git
+2. 导入 resnet.py 模块 
+> import resnet
 
 ### Training
 - 此部分可参照 training_example.py.
@@ -22,4 +24,8 @@
 
 ### TODO:
 - [ ] 添加新的网络。
-- [ ] 添加注释
+- [ ] 添加注释。
+
+### Other
+- make_dataset.py 用于生成适合网络输入的数据集。
+- visual_network.py 用于可视化网络的前向传播结构。
