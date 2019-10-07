@@ -59,10 +59,3 @@ class Dataset:
         labeled_ds = list_ds.map(self.__process_path,
                         num_parallel_calls=tf.data.experimental.AUTOTUNE)
         return self.__prepare_for_training(labeled_ds)
-
-
-if __name__ == '__main__':
-    ds = Dataset('./dat/train/', 224, 224, 2).data
-    img, label = next(iter(ds))
-    print(ds)
-    print(label)
