@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 
-__all__ = ['ResNet', 'resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152']
+__all__ = ['resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152']
 
 
 def conv3x3(outplanes, strides=1):
