@@ -1,7 +1,6 @@
 import tensorflow as tf
 import pathlib
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 class Dataset:
