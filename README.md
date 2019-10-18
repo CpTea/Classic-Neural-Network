@@ -1,5 +1,8 @@
 # Classic Neural Network
 
+![Python](https://img.shields.io/badge/python-3.7.4-green)
+![Tensorflow](https://img.shields.io/badge/tensorflow--gpu-2.0.0-orange)
+
 这个储存库使用TensorFlow2.0复现了一些经典的网络结构。
 
 ### Prerequisites
